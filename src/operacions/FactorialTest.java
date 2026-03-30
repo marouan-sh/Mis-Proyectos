@@ -23,4 +23,10 @@ public class FactorialTest {
 		double valor = fn.factorialIteratiu(-3);
 		System.out.println(valor);
 	}
+
+	// Test añadidp
+	@Test
+	public void test2() {
+		assertEquals(120, fn.factorialRecursiu(5), 0.001);
+	}
 }
